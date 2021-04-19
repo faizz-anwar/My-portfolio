@@ -3,301 +3,223 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAIZ ANWAR</title>
-    <link rel="icon" href="./assets/favicon.png" type="image" sizes="16x16">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="icon" href="/Extras/Favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="/css/magic-mouse.css">
 </head>
 
-<body class="antialiased" style="font-family: 'Rubik', sans-serif;">
-    <div class="container mx-auto">
-        <!-- Header-->
-        <header
-            class="flex flex-col sm:flex sm:flex-row sm:items-center sm:justify-between px-6 sm:px-10 lg:px-6 xl:px-0 mt-6">
-            <div>
-                <div class="flex">
-                    <h4 style="border-color: #425C5A; color: #425C5A;"
-                        class="border-b w-auto inline-block text-lg mr-16">Me</h4>
-                    <a href="./ui-kits.html">
-                        <h4 class="text-gray-800 text-lg mr-16">UI Kits</h4>
-                    </a>
-                    <a href="./contact.html">
-                        <h4 class="text-gray-800 text-lg">Contact</h4>
-                    </a>
+<body style="font-family: Poppins, sans-serif;">
+    <div class=" flex h-screen justify-center items-center relative">
+        <h1 class="text-gray-100 text-7xl sm:text-8xl font-bold hero px-6 sm:px-10">
+            Hi I am Faiz! <br> I make designs.
+        </h1>
+        <div class="absolute top-0 left-0 pt-6 pl-6 sm:pt-10 sm:pl-10 lg:pt-16 lg:pl-16 logo">
+            <a href="./index.html" class="none">
+                <svg width="130" height="59" viewBox="0 0 130 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.25 2.98H2.5V10.72H11.8V12.7H2.5V22H0.4V0.999999H12.25V2.98ZM26.6395 7H28.6195V22H26.6395V19.06C25.2595 21.26 23.2395 22.36 20.5795 22.36C18.4395 22.36 16.6095 21.6 15.0895 20.08C13.5895 18.56 12.8395 16.7 12.8395 14.5C12.8395 12.3 13.5895 10.44 15.0895 8.92C16.6095 7.4 18.4395 6.64 20.5795 6.64C23.2395 6.64 25.2595 7.74 26.6395 9.94V7ZM16.5295 18.73C17.6695 19.87 19.0695 20.44 20.7295 20.44C22.3895 20.44 23.7895 19.87 24.9295 18.73C26.0695 17.57 26.6395 16.16 26.6395 14.5C26.6395 12.84 26.0695 11.44 24.9295 10.3C23.7895 9.14 22.3895 8.56 20.7295 8.56C19.0695 8.56 17.6695 9.14 16.5295 10.3C15.3895 11.44 14.8195 12.84 14.8195 14.5C14.8195 16.16 15.3895 17.57 16.5295 18.73ZM33.0217 3.4C32.7417 3.68 32.4017 3.82 32.0017 3.82C31.6017 3.82 31.2617 3.68 30.9817 3.4C30.7017 3.12 30.5617 2.78 30.5617 2.38C30.5617 1.98 30.7017 1.64 30.9817 1.36C31.2617 1.08 31.6017 0.939999 32.0017 0.939999C32.4017 0.939999 32.7417 1.08 33.0217 1.36C33.3017 1.64 33.4417 1.98 33.4417 2.38C33.4417 2.78 33.3017 3.12 33.0217 3.4ZM31.0117 22V7H32.9917V22H31.0117ZM37.5534 20.08H46.1934V22H34.7934V20.68L43.1334 8.92H35.0934V7H45.8934V8.32L37.5534 20.08ZM67.6652 22L65.7152 16.84H55.7552L53.8052 22H51.5852L59.6552 0.999999H61.8152L69.8852 22H67.6652ZM56.5052 14.86H64.9652L60.7352 3.61L56.5052 14.86ZM77.5016 6.64C79.3216 6.64 80.7516 7.2 81.7916 8.32C82.8516 9.42 83.3816 10.91 83.3816 12.79V22H81.4016V12.79C81.4016 11.45 81.0416 10.41 80.3216 9.67C79.6216 8.93 78.6216 8.56 77.3216 8.56C75.8816 8.56 74.7116 9.02 73.8116 9.94C72.9116 10.84 72.4616 12.24 72.4616 14.14V22H70.4816V7H72.4616V9.34C73.5816 7.54 75.2616 6.64 77.5016 6.64ZM103.324 7H105.364L100.744 22H98.5837L94.7137 9.91L90.8437 22H88.6837L84.0637 7H86.1037L89.7937 19.45L93.7237 7H95.7037L99.6337 19.45L103.324 7ZM118.864 7H120.844V22H118.864V19.06C117.484 21.26 115.464 22.36 112.804 22.36C110.664 22.36 108.834 21.6 107.314 20.08C105.814 18.56 105.064 16.7 105.064 14.5C105.064 12.3 105.814 10.44 107.314 8.92C108.834 7.4 110.664 6.64 112.804 6.64C115.464 6.64 117.484 7.74 118.864 9.94V7ZM108.754 18.73C109.894 19.87 111.294 20.44 112.954 20.44C114.614 20.44 116.014 19.87 117.154 18.73C118.294 17.57 118.864 16.16 118.864 14.5C118.864 12.84 118.294 11.44 117.154 10.3C116.014 9.14 114.614 8.56 112.954 8.56C111.294 8.56 109.894 9.14 108.754 10.3C107.614 11.44 107.044 12.84 107.044 14.5C107.044 16.16 107.614 17.57 108.754 18.73ZM125.216 9.49C126.136 7.67 127.716 6.76 129.956 6.76V8.68C128.596 8.68 127.466 9.08 126.566 9.88C125.666 10.68 125.216 11.94 125.216 13.66V22H123.236V7H125.216V9.49Z"
+                        fill="#F4F4F5" />
+                    <path
+                        d="M7.9 37C9.78 37 11.35 37.63 12.61 38.89C13.87 40.15 14.5 41.72 14.5 43.6C14.5 45.48 13.87 47.05 12.61 48.31C11.35 49.57 9.78 50.2 7.9 50.2H2.5V58H0.4V37H7.9ZM7.9 48.22C9.2 48.22 10.27 47.79 11.11 46.93C11.97 46.05 12.4 44.94 12.4 43.6C12.4 42.26 11.97 41.16 11.11 40.3C10.27 39.42 9.2 38.98 7.9 38.98H2.5V48.22H7.9ZM27.3641 56.11C25.8441 57.61 23.9841 58.36 21.7841 58.36C19.5841 58.36 17.7141 57.61 16.1741 56.11C14.6541 54.59 13.8941 52.72 13.8941 50.5C13.8941 48.28 14.6541 46.42 16.1741 44.92C17.7141 43.4 19.5841 42.64 21.7841 42.64C23.9841 42.64 25.8441 43.4 27.3641 44.92C28.9041 46.42 29.6741 48.28 29.6741 50.5C29.6741 52.72 28.9041 54.59 27.3641 56.11ZM17.5841 54.73C18.7241 55.87 20.1241 56.44 21.7841 56.44C23.4441 56.44 24.8441 55.87 25.9841 54.73C27.1241 53.57 27.6941 52.16 27.6941 50.5C27.6941 48.84 27.1241 47.44 25.9841 46.3C24.8441 45.14 23.4441 44.56 21.7841 44.56C20.1241 44.56 18.7241 45.14 17.5841 46.3C16.4441 47.44 15.8741 48.84 15.8741 50.5C15.8741 52.16 16.4441 53.57 17.5841 54.73ZM33.1675 45.49C34.0875 43.67 35.6675 42.76 37.9075 42.76V44.68C36.5475 44.68 35.4175 45.08 34.5175 45.88C33.6175 46.68 33.1675 47.94 33.1675 49.66V58H31.1875V43H33.1675V45.49ZM47.0641 44.92H42.7441V54.01C42.7441 54.83 42.9041 55.42 43.2241 55.78C43.5441 56.12 44.0241 56.3 44.6641 56.32C45.3041 56.32 46.1041 56.3 47.0641 56.26V58C44.9641 58.32 43.3841 58.17 42.3241 57.55C41.2841 56.93 40.7641 55.75 40.7641 54.01V44.92H37.6141V43H40.7641V39.4L42.7441 38.8V43H47.0641V44.92ZM55.3023 38.56C53.8423 38.44 52.7523 38.69 52.0323 39.31C51.3323 39.93 50.9823 40.96 50.9823 42.4V43H55.3023V44.92H50.9823V58H49.0023V44.92H46.4523V43H49.0023V42.4C49.0023 40.44 49.5423 38.96 50.6223 37.96C51.7223 36.94 53.2823 36.5 55.3023 36.64V38.56ZM67.2735 56.11C65.7535 57.61 63.8935 58.36 61.6935 58.36C59.4935 58.36 57.6235 57.61 56.0835 56.11C54.5635 54.59 53.8035 52.72 53.8035 50.5C53.8035 48.28 54.5635 46.42 56.0835 44.92C57.6235 43.4 59.4935 42.64 61.6935 42.64C63.8935 42.64 65.7535 43.4 67.2735 44.92C68.8135 46.42 69.5835 48.28 69.5835 50.5C69.5835 52.72 68.8135 54.59 67.2735 56.11ZM57.4935 54.73C58.6335 55.87 60.0335 56.44 61.6935 56.44C63.3535 56.44 64.7535 55.87 65.8935 54.73C67.0335 53.57 67.6035 52.16 67.6035 50.5C67.6035 48.84 67.0335 47.44 65.8935 46.3C64.7535 45.14 63.3535 44.56 61.6935 44.56C60.0335 44.56 58.6335 45.14 57.4935 46.3C56.3535 47.44 55.7835 48.84 55.7835 50.5C55.7835 52.16 56.3535 53.57 57.4935 54.73ZM71.0969 58V36.1H73.0769V58H71.0969ZM77.4885 39.4C77.2085 39.68 76.8685 39.82 76.4685 39.82C76.0685 39.82 75.7285 39.68 75.4485 39.4C75.1685 39.12 75.0285 38.78 75.0285 38.38C75.0285 37.98 75.1685 37.64 75.4485 37.36C75.7285 37.08 76.0685 36.94 76.4685 36.94C76.8685 36.94 77.2085 37.08 77.4885 37.36C77.7685 37.64 77.9085 37.98 77.9085 38.38C77.9085 38.78 77.7685 39.12 77.4885 39.4ZM75.4785 58V43H77.4585V58H75.4785ZM92.4302 56.11C90.9102 57.61 89.0502 58.36 86.8502 58.36C84.6502 58.36 82.7802 57.61 81.2402 56.11C79.7202 54.59 78.9602 52.72 78.9602 50.5C78.9602 48.28 79.7202 46.42 81.2402 44.92C82.7802 43.4 84.6502 42.64 86.8502 42.64C89.0502 42.64 90.9102 43.4 92.4302 44.92C93.9702 46.42 94.7402 48.28 94.7402 50.5C94.7402 52.72 93.9702 54.59 92.4302 56.11ZM82.6502 54.73C83.7902 55.87 85.1902 56.44 86.8502 56.44C88.5102 56.44 89.9102 55.87 91.0502 54.73C92.1902 53.57 92.7602 52.16 92.7602 50.5C92.7602 48.84 92.1902 47.44 91.0502 46.3C89.9102 45.14 88.5102 44.56 86.8502 44.56C85.1902 44.56 83.7902 45.14 82.6502 46.3C81.5102 47.44 80.9402 48.84 80.9402 50.5C80.9402 52.16 81.5102 53.57 82.6502 54.73Z"
+                        fill="#27272A" />
+                </svg>
+            </a>
+        </div>
+        <div
+            class=" flex flex-col absolute animate-pulse bottom-0 right-0 pr-6 pb-6 sm:pr-10 sm:pb-10 lg:pr-16 lg:pb-16">
+            <svg width="144" height="104" viewBox="0 0 144 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12.98 23.86C14.62 23.86 15.89 23.63 16.79 23.17C17.69 22.71 18.14 22.04 18.14 21.16C18.14 20.38 17.87 19.71 17.33 19.15C16.79 18.57 16.12 18.08 15.32 17.68C14.52 17.28 13.43 16.81 12.05 16.27C11.93 16.23 11.64 16.12 11.18 15.94C9.3 15.18 7.85 14.42 6.83 13.66C5.83 12.9 5.33 11.92 5.33 10.72C5.33 9.38 5.86 8.37 6.92 7.69C7.98 7.01 9.34 6.67 11 6.67C12.22 6.67 13.34 6.83 14.36 7.15C15.4 7.45 16.22 7.87 16.82 8.41C17.44 8.95 17.75 9.56 17.75 10.24C17.51 10.36 17.28 10.42 17.06 10.42C16.82 10.42 16.57 10.37 16.31 10.27C16.07 10.15 15.71 9.96 15.23 9.7C14.45 9.28 13.72 8.95 13.04 8.71C12.36 8.45 11.56 8.32 10.64 8.32C9.48 8.32 8.54 8.52 7.82 8.92C7.1 9.32 6.74 9.88 6.74 10.6C6.74 11.16 6.98 11.67 7.46 12.13C7.96 12.59 8.58 13 9.32 13.36C10.08 13.7 11.09 14.11 12.35 14.59C13.95 15.21 15.27 15.79 16.31 16.33C17.35 16.87 18.23 17.56 18.95 18.4C19.69 19.22 20.06 20.2 20.06 21.34C20.06 22.68 19.42 23.72 18.14 24.46C16.86 25.18 15.27 25.54 13.37 25.54C11.87 25.54 10.39 25.32 8.93 24.88C7.47 24.44 6.22 23.79 5.18 22.93C4.14 22.05 3.48 21 3.2 19.78C3.2 19.24 3.35 18.78 3.65 18.4C3.95 18 4.32 17.8 4.76 17.8C4.76 19.1 5.12 20.21 5.84 21.13C6.58 22.03 7.57 22.71 8.81 23.17C10.07 23.63 11.46 23.86 12.98 23.86ZM29.828 25.03C27.488 25.03 25.668 24.5 24.368 23.44C23.088 22.36 22.448 20.7 22.448 18.46C22.448 17.32 22.728 16.24 23.288 15.22C23.868 14.18 24.638 13.35 25.598 12.73C26.578 12.09 27.628 11.77 28.748 11.77C29.888 11.77 30.858 12.02 31.658 12.52C32.458 13 32.858 13.7 32.858 14.62C32.858 15.26 32.738 15.72 32.498 16C32.278 16.26 32.028 16.39 31.748 16.39C31.748 15.43 31.488 14.65 30.968 14.05C30.448 13.45 29.708 13.15 28.748 13.15C27.788 13.15 26.958 13.41 26.258 13.93C25.558 14.43 25.018 15.1 24.638 15.94C24.278 16.76 24.098 17.62 24.098 18.52C24.098 20.42 24.738 21.71 26.018 22.39C27.318 23.07 29.028 23.41 31.148 23.41C31.868 23.41 32.808 23.37 33.968 23.29C34.008 23.29 34.098 23.33 34.238 23.41C34.378 23.49 34.488 23.54 34.568 23.56V23.74C34.568 24.32 34.058 24.68 33.038 24.82C32.018 24.96 30.948 25.03 29.828 25.03ZM38.4181 25C37.5981 23.4 36.9481 21.52 36.4681 19.36C36.0081 17.2 35.7781 15.33 35.7781 13.75C35.7781 13.13 35.9181 12.73 36.1981 12.55C36.3581 12.45 36.4781 12.4 36.5581 12.4C36.6981 12.4 36.7981 12.51 36.8581 12.73C36.9381 12.95 37.0181 13.35 37.0981 13.93L37.2481 15.01C37.4681 13.93 37.8881 13.08 38.5081 12.46C39.1481 11.82 39.9281 11.5 40.8481 11.5C41.8681 11.5 42.6281 11.7 43.1281 12.1C43.6281 12.48 43.8781 13.12 43.8781 14.02C42.8781 13.54 41.9681 13.3 41.1481 13.3C40.3681 13.3 39.6981 13.51 39.1381 13.93C38.5781 14.35 38.1881 14.97 37.9681 15.79C37.7881 16.35 37.6981 16.88 37.6981 17.38C37.6981 17.92 37.7681 18.43 37.9081 18.91C38.0681 19.37 38.3081 19.94 38.6281 20.62C38.9281 21.32 39.1581 21.92 39.3181 22.42C39.4981 22.92 39.5981 23.46 39.6181 24.04C39.6181 24.38 39.4981 24.63 39.2581 24.79C39.0181 24.93 38.7381 25 38.4181 25ZM51.2752 25.03C50.0952 25.03 49.0252 24.77 48.0652 24.25C47.1252 23.71 46.3852 22.97 45.8452 22.03C45.3252 21.07 45.0652 19.98 45.0652 18.76C45.0652 16.76 45.7952 15.27 47.2552 14.29C48.7352 13.31 50.5452 12.82 52.6852 12.82C53.6652 12.82 54.5752 13.06 55.4152 13.54C56.2752 14.02 56.9652 14.71 57.4852 15.61C58.0052 16.51 58.2652 17.55 58.2652 18.73C58.2652 20.01 57.9352 21.13 57.2752 22.09C56.6152 23.03 55.7452 23.76 54.6652 24.28C53.6052 24.78 52.4752 25.03 51.2752 25.03ZM50.9452 23.32C52.8052 23.32 54.2152 22.9 55.1752 22.06C56.1352 21.22 56.6152 19.99 56.6152 18.37C56.6152 17.27 56.2352 16.32 55.4752 15.52C54.7352 14.72 53.6952 14.32 52.3552 14.32C51.4552 14.32 50.5452 14.49 49.6252 14.83C48.7052 15.17 47.9452 15.68 47.3452 16.36C46.7452 17.04 46.4452 17.86 46.4452 18.82C46.4452 19.62 46.6452 20.37 47.0452 21.07C47.4452 21.75 47.9852 22.3 48.6652 22.72C49.3652 23.12 50.1252 23.32 50.9452 23.32ZM61.393 24.79C60.953 22.61 60.613 20.03 60.373 17.05C60.153 14.05 60.043 11.15 60.043 8.35C60.043 6.95 60.073 5.71 60.133 4.63C60.133 4.37 60.333 4.24 60.733 4.24C61.053 4.24 61.253 4.32 61.333 4.48C61.433 4.64 61.483 4.89 61.483 5.23C61.483 8.47 61.543 11.24 61.663 13.54C61.783 15.82 61.943 18.28 62.143 20.92C62.263 22.62 62.343 23.77 62.383 24.37C62.403 24.69 62.233 24.85 61.873 24.85C61.753 24.85 61.593 24.83 61.393 24.79ZM66.432 24.79C65.992 22.61 65.652 20.03 65.412 17.05C65.192 14.05 65.082 11.15 65.082 8.35C65.082 6.95 65.112 5.71 65.172 4.63C65.172 4.37 65.372 4.24 65.772 4.24C66.092 4.24 66.292 4.32 66.372 4.48C66.472 4.64 66.522 4.89 66.522 5.23C66.522 8.47 66.582 11.24 66.702 13.54C66.822 15.82 66.982 18.28 67.182 20.92C67.302 22.62 67.382 23.77 67.422 24.37C67.442 24.69 67.272 24.85 66.912 24.85C66.792 24.85 66.632 24.83 66.432 24.79ZM82.4511 24.97C81.5111 24.97 80.6911 24.65 79.9911 24.01C79.3111 23.37 78.7911 22.54 78.4311 21.52C78.0911 20.5 77.9211 19.44 77.9211 18.34C77.9211 16.42 78.3211 14.8 79.1211 13.48C79.9411 12.16 81.1811 11.5 82.8411 11.5C83.8411 11.5 84.7111 11.68 85.4511 12.04C86.2111 12.38 87.2011 12.96 88.4211 13.78L89.2011 14.32C89.1011 13.66 88.9511 12.9 88.7511 12.04C88.5511 11.18 88.4211 10.59 88.3611 10.27C88.0211 8.71 87.7711 7.55 87.6111 6.79C87.4711 6.01 87.4011 5.32 87.4011 4.72C87.4011 3.66 87.7011 3.13 88.3011 3.13C88.5211 3.61 88.7811 4.64 89.0811 6.22C89.3811 7.78 89.7611 9.92 90.2211 12.64C90.7011 15.52 91.1211 17.87 91.4811 19.69C91.8411 21.51 92.1411 22.65 92.3811 23.11C92.3811 23.57 92.0411 23.8 91.3611 23.8C90.8411 23.8 90.4811 23.5 90.2811 22.9C90.1011 22.3 89.9911 21.25 89.9511 19.75H89.7111C88.8711 21.27 87.7811 22.52 86.4411 23.5C85.1011 24.48 83.7711 24.97 82.4511 24.97ZM82.8411 23.5C83.6611 23.5 84.5411 23.16 85.4811 22.48C86.4411 21.78 87.2511 20.94 87.9111 19.96C88.5711 18.96 88.9011 18.06 88.9011 17.26V16.36C86.8411 14.2 84.9411 13.12 83.2011 13.12C81.9811 13.12 81.0411 13.57 80.3811 14.47C79.7211 15.35 79.3911 16.51 79.3911 17.95L79.4211 18.58C79.5411 20.1 79.8811 21.3 80.4411 22.18C81.0011 23.06 81.8011 23.5 82.8411 23.5ZM100.377 25.03C99.1968 25.03 98.1268 24.77 97.1668 24.25C96.2268 23.71 95.4868 22.97 94.9468 22.03C94.4268 21.07 94.1668 19.98 94.1668 18.76C94.1668 16.76 94.8968 15.27 96.3568 14.29C97.8368 13.31 99.6468 12.82 101.787 12.82C102.767 12.82 103.677 13.06 104.517 13.54C105.377 14.02 106.067 14.71 106.587 15.61C107.107 16.51 107.367 17.55 107.367 18.73C107.367 20.01 107.037 21.13 106.377 22.09C105.717 23.03 104.847 23.76 103.767 24.28C102.707 24.78 101.577 25.03 100.377 25.03ZM100.047 23.32C101.907 23.32 103.317 22.9 104.277 22.06C105.237 21.22 105.717 19.99 105.717 18.37C105.717 17.27 105.337 16.32 104.577 15.52C103.837 14.72 102.797 14.32 101.457 14.32C100.557 14.32 99.6468 14.49 98.7268 14.83C97.8068 15.17 97.0468 15.68 96.4468 16.36C95.8468 17.04 95.5468 17.86 95.5468 18.82C95.5468 19.62 95.7468 20.37 96.1468 21.07C96.5468 21.75 97.0868 22.3 97.7668 22.72C98.4668 23.12 99.2268 23.32 100.047 23.32ZM123.073 24.85C121.953 24.85 121.043 24.64 120.343 24.22C119.663 23.78 119.183 23.1 118.903 22.18C118.303 23.22 117.613 24 116.833 24.52C116.053 25.02 115.213 25.27 114.313 25.27C112.753 25.27 111.553 24.71 110.713 23.59C109.873 22.47 109.453 20.66 109.453 18.16C109.453 16.98 109.573 15.98 109.813 15.16C110.073 14.34 110.503 13.59 111.103 12.91C111.383 13.01 111.553 13.15 111.613 13.33C111.693 13.49 111.733 13.73 111.733 14.05C111.733 14.37 111.693 14.69 111.613 15.01C111.553 15.33 111.513 15.52 111.493 15.58C111.353 16.18 111.243 16.71 111.163 17.17C111.103 17.61 111.073 18.16 111.073 18.82C111.073 20.26 111.343 21.44 111.883 22.36C112.443 23.26 113.243 23.71 114.283 23.71C115.463 23.71 116.383 23.33 117.043 22.57C117.723 21.79 118.063 20.82 118.063 19.66L117.853 16.6C117.853 16.48 117.933 16.36 118.093 16.24C118.273 16.12 118.473 16.06 118.693 16.06C118.973 16.06 119.163 16.25 119.263 16.63C119.363 17.01 119.453 17.61 119.533 18.43C119.653 19.45 119.783 20.29 119.923 20.95C120.083 21.59 120.383 22.16 120.823 22.66C121.263 23.14 121.903 23.38 122.743 23.38C123.763 23.38 124.503 23.1 124.963 22.54C125.423 21.96 125.653 21.21 125.653 20.29C125.653 19.47 125.493 18.61 125.173 17.71C124.873 16.79 124.503 16.04 124.063 15.46C124.043 15.28 124.133 15.13 124.333 15.01C124.553 14.89 124.773 14.86 124.993 14.92C125.353 15 125.683 15.32 125.983 15.88C126.303 16.44 126.553 17.14 126.733 17.98C126.933 18.82 127.033 19.66 127.033 20.5C127.033 21.76 126.713 22.8 126.073 23.62C125.453 24.44 124.453 24.85 123.073 24.85ZM132.29 25.12C132.01 25.2 131.85 25.24 131.81 25.24C131.65 25.24 131.48 25.16 131.3 25C130.64 24.02 130.16 22.31 129.86 19.87C129.58 17.43 129.44 15.33 129.44 13.57C129.44 13.29 129.64 13.15 130.04 13.15C130.64 13.15 130.94 13.48 130.94 14.14C130.94 14.32 130.93 14.47 130.91 14.59C131.09 14.17 131.43 13.74 131.93 13.3C132.43 12.86 133.01 12.49 133.67 12.19C134.33 11.89 135 11.74 135.68 11.74C137.82 11.74 139.38 12.69 140.36 14.59C141.34 16.47 141.83 18.81 141.83 21.61C141.83 22.57 141.73 23.34 141.53 23.92C141.33 24.48 141.06 24.76 140.72 24.76C140.36 24.76 140.18 24.65 140.18 24.43C140.32 23.37 140.39 22.33 140.39 21.31C140.39 18.73 139.94 16.78 139.04 15.46C138.14 14.12 136.95 13.45 135.47 13.45C134.75 13.45 134.05 13.63 133.37 13.99C132.71 14.35 132.17 14.85 131.75 15.49C131.35 16.13 131.15 16.86 131.15 17.68C131.15 18.6 131.2 19.4 131.3 20.08C131.4 20.76 131.56 21.58 131.78 22.54C132.02 23.48 132.19 24.34 132.29 25.12Z"
+                    fill="#F4F4F5" />
+                <g clip-path="url(#clip0)">
+                    <path
+                        d="M19.5013 92.7826C18.4458 90.5711 17.9756 88.3919 17.9849 86.2965C17.9923 84.1981 18.4811 82.1819 19.3406 80.2937C20.1983 78.4026 21.4275 76.6428 22.9179 75.0566C24.4093 73.4701 26.1625 72.0548 28.0691 70.8618C29.1984 70.1545 30.376 69.5276 31.5934 68.9859C32.8215 68.4389 34.0928 67.9946 35.3943 67.6577C36.6929 67.3259 39.5368 67.1125 40.8675 67.0518C42.1968 66.9903 43.5324 67.078 44.852 67.3439C45.6615 67.5075 46.6462 67.8226 47.6337 68.2692C48.6189 68.7163 49.6086 69.2969 50.4203 69.9924C51.232 70.688 51.8703 71.4984 52.1557 72.4034C52.4412 73.3084 52.3765 74.3096 51.7819 75.39C51.3538 76.1716 50.6645 76.7777 49.8345 77.1022C49.0287 77.4329 48.0987 77.5429 47.1417 77.5128C46.1849 77.4838 45.1998 77.3103 44.2852 77.0705C43.4522 76.8506 42.6382 76.5639 41.8512 76.2133C40.7459 75.7132 39.6897 75.111 38.6963 74.4147C37.6898 73.7089 36.7498 72.9127 35.8883 72.0358C35.0262 71.1566 34.2473 70.1982 33.578 69.1767C32.9093 68.1639 32.3541 67.0805 31.9223 65.9462C31.452 64.7146 31.1592 63.4223 31.0529 62.1082C30.9537 60.863 31.0443 59.6101 31.3217 58.3921C33.0539 50.8024 41.0494 47.2469 47.752 45.1226C51.0694 44.0725 54.4133 43.108 57.7613 42.1634C61.2044 41.1886 64.6894 40.3743 68.2076 39.7228"
+                        stroke="#F4F4F5" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" />
+                    <path
+                        d="M12 88.8288C16.1698 91.4343 16.8736 96.2283 20.2948 99.4534C21.467 96.0613 24.1531 89.2894 27.1586 87"
+                        stroke="#F4F4F5" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="72.8401" height="50.4278" fill="white"
+                            transform="translate(0 54.8524) rotate(-15)" />
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <div class="container px-6 sm:px-10 lg:px-16 xl:px-0 mx-auto">
+        <div class="lg:flex mb-32 sm:mt-72 sm:mb-72 xl:mt-96 xl:mb-96" id="about">
+            <div class="lg:w-1/4">
+                <h3 class="text-gray-100 text-4xl sm:text-5xl font-bold capitalize mb-4 lg:mb-0">
+                    About
+                </h3>
+            </div>
+            <div class="lg:w-9/12">
+                <p class="text-gray-300 text-lg sm:text-2xl mb-16">
+                    I’m Faiz, a 19 y/o creative person who believes in the power of elegant minimalism in a world
+                    increasingly saturated with garish color. From an early age, I have always had a strong interest in
+                    computing and designing. My interest in UI/UX design started when I met some of the great
+                    professional Designers and developers team in my city called
+                    <span class="underline hover:line-through focus:line-through">
+                        <a href="https://chitranu.com" target="_blank" class=" none">
+                            ChitranuTech
+                        </a>
+                    </span>, they taught me from the
+                    scratch and saw something in me that’s why they gave me a chance to prove my self & I stands out on
+                    their expectations with my creativity and learning speed, and now I’m on there team. My interest in
+                    computers spans from the first pc which my uncle bought when I was 9 y/o. Now the aspect of
+                    computing I was most interested in was design, which led me to design clean & minimal web pages and
+                    Apps screens.
+                </p>
+                <h4 class="text-gray-100 text-2xl sm:text-3xl font-bold mb-4 capitalize">
+                    Experience & Role
+                </h4>
+                <p class="text-gray-300 text-lg sm:text-2xl">
+                    In this great creative field, I have more then 2+ years of experience as a User Interface & User
+                    Experience Designer for ChitranuTech. My role on the team is to deliver wireframes, enhance users
+                    experience, create beautiful UI’s and convert the final product into a fully working prototype.
+                </p>
+            </div>
+        </div>
+        <div class="lg:flex mb-32 sm:mb-72 xl:mb-96" id="works">
+            <div class="lg:w-1/4">
+                <h3 class="text-gray-100 text-4xl sm:text-5xl font-bold capitalize mb-4 lg:mb-0">
+                    Works
+                </h3>
+            </div>
+            <div class="lg:w-9/12">
+                <p class="text-gray-300 text-lg sm:text-2xl mb-16 sm:mb-20">
+                    Complete case studies about my recently completed projects for my great clients, Some imaginary
+                    concepts & Exclusive premium UI Kits.
+                </p>
+                <div>
+                    <h2
+                        class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-28 hover:line-through focus:line-through">
+                        <span>
+                            <a href="https://www.figma.com/community/file/965557958060848007/Covid-Advices-Onboarding-Screens" target="_blank" class="none">
+                                covid advices onboardings (figma community)
+                            </a>
+                        </span>
+                    </h2>
+                </div>
+                <div>
+                    <h2
+                        class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-28 hover:line-through focus:line-through">
+                        <span>
+                            <a href="https://dribbble.com/shots/15487908-Summer-Tour-Concept" target="_blank" class="none">
+                                summer tour concept design
+                            </a>
+                        </span>
+                    </h2>
+                </div>
+                <div>
+                    <h2
+                        class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through">
+                        <span>
+                            <a href="https://ui8.net/faiz-ui-kits/products/urban-storage-ui-kit" target="_blank" class="none">
+                                Urban Storage UI Kit
+                            </a>
+                        </span>
+                    </h2>
+                </div>
+                <div>
+                    <h4
+                        class="text-gray-100 text-2xl sm:text-3xl font-bold capitalize underline text-right hover:line-through focus:line-through">
+                        <span>
+                            <a href="/html/view_more.html" class="none">
+                                View more
+                            </a>
+                        </span>
+                    </h4>
                 </div>
             </div>
-            <div class="order-first sm:order-none pb-3 sm:pb-0">
-                <a href="./index.html">
-                    <h2 style="color: #425C5A;" class="text-4xl">
-                        FAIZ ANWAR
-                    </h2>
+        </div>
+        <div class="lg:flex mb-32 sm:mb-72 xl:mb-96" id="getintouch">
+            <div class="lg:w-1/4">
+                <h3 class="text-gray-100 text-4xl sm:text-5xl font-bold capitalize mb-4 lg:mb-0">
+                    get in <br class="hidden lg:inline"> touch
+                </h3>
+            </div>
+            <div class="lg:w-9/12">
+                <p class="text-gray-300 text-lg sm:text-2xl mb-12 lg:mb-24">
+                    Have any idea in mind to create stunning Web/App design for your self, client or even agency? If yes
+                    so click the mail below and let’s shake hands together.
+                </p>
+                <a href="mailto:faiz@chitranu.com" target="_blank"
+                    class="text-gray-100 text-3xl sm:text-5xl md:text-6xl xl:text-7xl font-bold capitalize underline hover:line-through focus:line-through none">
+                    Faiz@chitranu.com
                 </a>
             </div>
-        </header>
-        <!-- main view-->
-        <div class="flex lg:flex-row flex-col justify-between items-center lg:pt-20 px-6 sm-px-0 md:px-20 ">
-            <div class="pt-12 md:pt-20">
-                <h1 class="text-5xl sm:text-6xl md:text-center lg:text-left leading-none md:pb-8 lg:pb-3 pb-4">
-                    Creative <span style="color:#425C5A">UI/UX</span> <br> Designer From India.
-                </h1>
-                <p class="text-xl md:text-center lg:text-left text-grey-700 pb-5 lg:pb-3 leading-7 xl:pb-5">
-                    Helps you to build your dream Design. In a minimalist way. <br>
-                    Just some steps are left.
+        </div>
+        <div class="lg:flex mb-32 sm:mb-64 xl:mb-80">
+            <div class="lg:w-1/4">
+                <h3 class="text-gray-100 text-4xl sm:text-5xl font-bold capitalize mb-16 sm:mb-12 lg:mb-0">
+                    Follow
+                </h3>
+            </div>
+            <div class="lg:w-9/12 flex flex-col items-center lg:items-start">
+                <a href="https://dribbble.com/faizz_anwar" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through none">
+                    Dribbble
+                </a>
+                <a href="https://instagram.com/faizz_anwar" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through none">
+                    Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/faizzanwar/" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through none">
+                    LinkedIn
+                </a>
+                <a href="https://figma.com/@faiz" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through none">
+                    Figma
+                </a>
+                <a href="https://twitter.com/faizz_anwar" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline mb-12 sm:mb-24 hover:line-through focus:line-through none">
+                    Twitter
+                </a>
+                <a href="https://www.behance.net/faizz_anwar" target="_blank"
+                    class="text-gray-100 text-4xl sm:text-6xl xl:text-7xl font-bold capitalize underline hover:line-through focus:line-through none">
+                    Behance
+                </a>
+            </div>
+        </div>
+        <div class="mb-6 sm:mb-10 lg:md-16">
+            <div class="text-center">
+                <h4>
+                    <span class="text-gray-100 text-opacity-20 text-xl sm:text-3xl xl:text-4xl font-bold">
+                        Design & Develop by myself
+                    </span>
+                    <span class="text-gray-100 text-2xl sm:text-3xl xl:text-4xl font-bold">
+                        Peace.
+                    </span>
+                </h4>
+            </div>
+            <div class="text-center">
+                <p class="text-gray-100 text-opacity-40 text-base sm:text-xl xl:text-2xl mt-4 sm:mt-10">
+                    &copy; 2021 Faiz Anwar
                 </p>
-                <div class="">
-                    <a href="./contact.html" class="flex md:justify-center lg:justify-start items-center">
-                        <p style="color: #425C5A;" class="text-2xl no-underline hover:underline pr-4">
-                            Let's discuss
-                        </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" style="color: #425C5A;" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-            <div>
-                <img src="./assets/Faiz-image.png" alt="My image">
             </div>
         </div>
     </div>
-    <div style="background-color: #ECF2F2;" class="">
-        <div class="container mx-auto py-24 xl:px-24">
-            <h2 style="color: #425C5A" class="text-5xl md:text-center pl-10 lg:pl-0 mb-6">
-                Concepts & Projects
-            </h2>
-            <p class="text-2xl flex lg:justify-end text-gray-700 leading-7 pl-10 lg:pl-0 pr-6 xl:pr-0 mb-10">
-                1 NDA project done.
-            </p>
-            <!--CONTENT CONTENT CONTENT CONTENT CONTENT-->
-            <div class="container mx-auto px-6 sm:px-10 :px-0">
-                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
-                    <!-- New post here! -->
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14820078-Christmas-Screens-Concept" target="_blank">
-                            <div><img src="./projects/christmas-screens-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="christmas screens concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14770857-Jacob-Owens-Shoutout-Concept" target="_blank">
-                            <div><img src="./projects/jacob-web-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="jacob web concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14748562-DJ-Web-Concept" target="_blank">
-                            <div><img src="./projects/dj-web-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="dj web concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14743130-Cyclist-Web-Concept-dribbble" target="_blank">
-                            <div><img src="./projects/cyclist-web-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="cyclist web concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14737478-Workout-Tracker-Screens-Concept" target="_blank">
-                            <div><img src="./projects/workout-app-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="workout app concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14732086-Planters-App-Concept-Screens" target="_blank">
-                            <div><img src="./projects/planters-app-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="planters app concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14673996-90-s-Shoppers-App-2-screens-dribbble"
-                            target="_blank">
-                            <div><img src="./projects/90s-shoppers-app-concept.png"
-                                    class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:z-15 md:hover:scale-110 ..."
-                                    alt="90's shoppers concept"></div>
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14497712-AR-Site-Community-Page-Concept" target="_blank">
-                            <img src="./projects/community-page-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="community page concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14453260-Pet-Caring-App-Concept" target="_blank">
-                            <img src="./projects/pet-caring-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="pet caring concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14299555-Password-keys-manager-app-Concept" target="_blank">
-                            <img src="./projects/password-manager-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="password manager concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14252410-Parking-Space-Finder-App-Concept" target="_blank">
-                            <img src="./projects/parking-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="CarParking Finder">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14234242-Ice-Creamy-Stock-App-Concept" target="_blank">
-                            <img src="./projects/ice-creamy-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="ice creamy concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14225110-VR-Maps-and-Live-View-App-Concept" target="_blank">
-                            <img src="./projects/ar-vr-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="ar vr concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/14008022-Delicious-Minimal-UI-Screens" target="_blank">
-                            <img src="./projects/minimal-ui-screens.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="minimal ui screens">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/13988561-Dashboard-Concept" target="_blank">
-                            <img src="./projects/dashboard-screen-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="dashboard screen cencept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/13953983-PS5-dribbble" target="_blank">
-                            <img src="./projects/ps5-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="ps5 concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/10564669-Kids-Cloths-Site" target="_blank">
-                            <img src="./projects/cloth-site-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="cloth site concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/10264040-Sign-Up-Page" target="_blank">
-                            <img src="./projects/log-in-screen-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="login screen concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/9956659-Cities-Knowledge-App-Concept" target="_blank">
-                            <img src="./projects/places-knowledge-app-concept.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="places knowledge concept">
-                        </a>
-                    </div>
-                    <div class="rounded-lg overflow-hidden">
-                        <a href="https://dribbble.com/shots/9892060-Tiny-Recipe-App-Concept" target="_blank">
-                            <img src="./projects/recipe-app-concept-1.png"
-                                class="w-full md:transition md:duration-500 md:ease-in-out md:transform md:hover:-translate-y-1 md:hover:scale-110 ..."
-                                alt="recipe app concept">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- FOOTER -->
-    <div style="background-color: #425C5A;" class="">
-        <div class=" container mx-auto pt-12 px-6 xl:px-0">
-            <div class="pb-12 mb-8 lg:flex lg:justify-between border-b border-white border-opacity-25 items-start">
-                <div>
-                    <h2 style="color: #ECF2F2;" class="text-4xl text-center lg:left leading-none pb-4 sm:pb-0">
-                        Have any idea of project?
-                    </h2>
-                    <p style="color: #ECF2F2;" class="text-2xl text-center lg:text-left lg:left pb-4 lg:pb-0">
-                        Let’s shake hands and work together.
-                    </p>
-                </div>
-                <div>
-                    <div>
-                        <a href="./contact.html" class="flex justify-center items-center">
-                            <h2 style="color: #FFCEA2;" class="pr-2 text-4xl no-underline hover:underline">
-                                Contact Me
-                            </h2>
-                            <svg xmlns="http://www.w3.org/2000/svg" style="color: #FFCEA2;" class="h-6 w-6" fill="none"
-                                viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="md:flex md:justify-between md:items-center pb-8">
-                <div>
-                    <h3 class="text-xl pb-4 md:pb-0 text-white opacity-50 text-center md:text-left">
-                        © 2020 Faiz Anwar
-                    </h3>
-                </div>
-                <div class="flex justify-center">
-                    <a href="https://dribbble.com/faizz_anwar" target="_blank">
-                        <svg class="h-8 w-8 lg:h-10 lg:w-10 fill-current text-white opacity-50 hover:opacity-100"
-                            role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Dribbble icon</title>
-                            <path
-                                d="M12 24C5.385 24 0 18.615 0 12S5.385 0 12 0s12 5.385 12 12-5.385 12-12 12zm10.12-10.358c-.35-.11-3.17-.953-6.384-.438 1.34 3.684 1.887 6.684 1.992 7.308 2.3-1.555 3.936-4.02 4.395-6.87zm-6.115 7.808c-.153-.9-.75-4.032-2.19-7.77l-.066.02c-5.79 2.015-7.86 6.025-8.04 6.4 1.73 1.358 3.92 2.166 6.29 2.166 1.42 0 2.77-.29 4-.814zm-11.62-2.58c.232-.4 3.045-5.055 8.332-6.765.135-.045.27-.084.405-.12-.26-.585-.54-1.167-.832-1.74C7.17 11.775 2.206 11.71 1.756 11.7l-.004.312c0 2.633.998 5.037 2.634 6.855zm-2.42-8.955c.46.008 4.683.026 9.477-1.248-1.698-3.018-3.53-5.558-3.8-5.928-2.868 1.35-5.01 3.99-5.676 7.17zM9.6 2.052c.282.38 2.145 2.914 3.822 6 3.645-1.365 5.19-3.44 5.373-3.702-1.81-1.61-4.19-2.586-6.795-2.586-.825 0-1.63.1-2.4.285zm10.335 3.483c-.218.29-1.935 2.493-5.724 4.04.24.49.47.985.68 1.486.08.18.15.36.22.53 3.41-.43 6.8.26 7.14.33-.02-2.42-.88-4.64-2.31-6.38z" />
-                        </svg>
-                    </a>
-                    <a href="https://instagram.com/faizz_anwar" target="_blank">
-                        <svg class="h-8 w-8 lg:h-10 lg:w-10 fill-current ml-10 text-white opacity-50 hover:opacity-100"
-                            role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Instagram icon</title>
-                            <path
-                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
-                        </svg>
-                    </a>
-                    <a href="https://www.figma.com/@faiz" target="_blank">
-                        <svg class="h-8 w-8 lg:h-10 lg:w-10 fill-current ml-10 text-white opacity-50 hover:opacity-100" 
-                            role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Figma icon</title>
-                            <path
-                                d="M12 12a4 4 0 1 1 8 0 4 4 0 0 1-8 0zM4 20a4 4 0 0 1 4-4h4v4a4 4 0 1 1-8 0zM12 0v8h4a4 4 0 1 0 0-8h-4zM4 4a4 4 0 0 0 4 4h4V0H8a4 4 0 0 0-4 4zM4 12a4 4 0 0 0 4 4h4V8H8a4 4 0 0 0-4 4z" />
-                        </svg>
-                    </a>
-                    <a href="https://twitter.com/faizz_anwar" target="_blank">
-                        <svg class="h-8 w-8 lg:h-10 lg:w-10 fill-current ml-10 text-white opacity-50 hover:opacity-100"
-                            role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Twitter icon</title>
-                            <path
-                                d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                        </svg>
-                    </a>
-                    <a href="https://behance.net/faizz_anwar" target="_blank">
-                        <svg class=" h-8 w-8 lg:h-10 lg:w-10 fill-current ml-10 text-white opacity-50 hover:opacity-100"
-                            role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <title>Behance icon</title>
-                            <path
-                                d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.485.61.41.28.733.65.96 1.12.225.47.34 1.05.34 1.73 0 .74-.17 1.36-.507 1.86-.338.5-.837.9-1.502 1.22.906.26 1.576.72 2.022 1.37.448.66.665 1.45.665 2.36 0 .75-.13 1.39-.41 1.93-.28.55-.67 1-1.16 1.35-.48.348-1.05.6-1.67.767-.61.165-1.252.254-1.91.254H0V4.51h6.938v-.007zM16.94 16.665c.44.428 1.073.643 1.894.643.59 0 1.1-.148 1.53-.447.424-.29.68-.61.78-.94h2.588c-.403 1.28-1.048 2.2-1.9 2.75-.85.56-1.884.83-3.08.83-.837 0-1.584-.13-2.272-.4-.673-.27-1.24-.65-1.72-1.14-.464-.49-.823-1.08-1.077-1.77-.253-.69-.373-1.45-.373-2.27 0-.803.135-1.54.403-2.23.27-.7.644-1.28 1.12-1.79.495-.51 1.063-.895 1.736-1.194s1.4-.433 2.22-.433c.91 0 1.69.164 2.38.523.67.34 1.22.82 1.66 1.4.44.586.75 1.26.94 2.02.19.75.25 1.54.21 2.38h-7.69c0 .84.28 1.632.71 2.065l-.08.03zm-10.24.05c.317 0 .62-.03.906-.093.29-.06.548-.165.763-.3.21-.135.39-.328.52-.583.13-.24.19-.57.19-.96 0-.75-.22-1.29-.64-1.62-.43-.32-.99-.48-1.69-.48H3.24v4.05H6.7v-.03zm13.607-5.65c-.352-.385-.94-.592-1.657-.592-.468 0-.855.074-1.166.238-.302.15-.55.35-.74.59-.19.24-.317.48-.392.75-.075.26-.12.5-.135.71h4.762c-.07-.75-.33-1.3-.68-1.69v.01zM6.52 10.45c.574 0 1.05-.134 1.425-.412.374-.27.554-.72.554-1.338 0-.344-.07-.625-.18-.846-.13-.22-.3-.39-.5-.512-.21-.124-.45-.21-.72-.257-.27-.053-.56-.074-.84-.074H3.23v3.44h3.29zm9.098-4.958h5.968v1.454h-5.968V5.48v.01z" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <script src="/js/magic_mouse.js"></script>
+    <script type="text/javascript">
+        options = {
+        "cursorOuter": "circle-basic",
+        "hoverEffect": "circle-move",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 30,
+        "outerHeight": 30
+          };
+        magicMouse(options);
+    </script>
 </body>
 
 </html>
