@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    background: linear-gradient(90deg, #000000 21px, transparent 1%) center, linear-gradient(#000000 21px, transparent 1%) center, #27272a;
+    background-size: 22px 22px;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('/Extras/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url('/Extras/Poppins-SemiBold.ttf');
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1280px) {
+    .hero {
+        font-size: 10vw;
+    }
+}
+
+/* this class will be delete when the project casestudy will be completed! */
+
+.indevelopment {
+    height: 100vh;
+}
