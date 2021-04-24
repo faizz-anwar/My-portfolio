@@ -7,7 +7,7 @@ body #magicMouseCursor {
   z-index: 9999;
   left: 0;
   top: 0;
-  transition: transform 0.1s, width 0.3s, height 0.3s;
+  transition: transform 0.1s, width 9s, height 1s;
   pointer-events: none;
 }
 
