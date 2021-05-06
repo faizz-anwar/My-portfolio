@@ -4,8 +4,6 @@ html {
 
 body {
     background-color: black;
-    background: linear-gradient(90deg, #000000 21px, transparent 1%) center, linear-gradient(#000000 21px, transparent 1%) center, #3f3f46;
-    background-size: 22px 22px;
 }
 
 @font-face {
