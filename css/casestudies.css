@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('/Extras/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: bold;
+    src: url('/Extras/Poppins-SemiBold.ttf');
+}
